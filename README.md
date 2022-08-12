@@ -6,4 +6,5 @@ This is a basic website project where the goal is to make an educational/blog we
 
 <ul>
 <li>The links in the animated dropdown don't work because as soon as I add an anchor tag to them, they lose their formatting due to css selector precedence issues. Inefficient css code and multiple css files with overlapping code makes it difficult to track the issue.</li>
+<li>Can access those pages through the "Get started" button that shows up when we hover over the picture of the digital electronics topic on the main page</li>
 </ul>
