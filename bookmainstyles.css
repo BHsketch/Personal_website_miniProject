@@ -1,0 +1,139 @@
+
+main{
+    padding:20px;
+    position:relative;
+}
+/* 
+.booknotestop{
+    background-color:#95866080;
+    border-radius:10px;
+} */
+
+.booknotestop_pic{
+    padding-left:300px;
+    padding-right:0px;
+    display:inline-block;
+    width:35%;
+    margin-right:10px;
+}
+
+/* .booknotestop_pic h1{
+    position:relative;
+    bottom:175px;
+    text-align:center;
+    color:#6ee1b9;
+    width:300px;
+    font-size:50px;
+} */
+
+.booknotestop_pic img{
+    width:300px;
+    border-radius:15px;
+}
+.booknotestitle{
+    display:inline-block;
+    color:#6ee1b9;
+    text-align:center;
+    vertical-align:center;
+    margin:0px;
+    position:absolute;
+    top:175px;
+    margin-right:20px;
+    width:500px;
+}
+
+.booknotestitle h1{
+    display:inline-block;
+    margin:0px;
+    font-size:50px;
+    color:#4e5251;
+} 
+
+
+.book{
+    display:inline-block;
+    width:500px;
+    padding:5px;
+    margin:50px 175px 50px 50px;
+}
+
+.bookimg{
+    display:inline-block;
+    width:225px;
+    height:337px;
+    border-radius:7px;
+    padding:0px;
+    box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    overflow:hidden;
+    margin-right:10px;
+    background-repeat: no-repeat;
+    background-size:225px;
+}
+
+.bookinfo{
+    display:inline-block;
+    width:200px;
+    margin-left:10px;
+}
+
+.bookinfo h2, .bookinfo p{
+    display:inline-block;
+    text-align:center;
+    width:200px;
+}
+
+.bookinfo h2{
+    margin-bottom:0px;
+}
+.bookinfo p.subnotes{
+    color:#6ee1b9;
+    margin-bottom:0px;
+}
+
+.book .getbook{
+    text-align:center;
+}
+
+.getbook a{
+    display:inline-block;
+    width:100px;
+    text-decoration:none;
+    color:black;
+}
+
+/* .getbook a:visited{
+    text-decoration:none;
+    color:black;
+} */
+
+.getbook p{
+    background-color:#6ee1b9;
+    border-radius:5px;
+    padding:5px;
+}
+
+.bookimg1{
+    background-image:url('images/cant_hurt_me.jpg');
+}
+
+.bookimg2{
+    background-image:url('images/atomic_habits.jpg');
+}
+
+.bookimg3{
+    background-image:url('images/briefhist.jpg');
+}
+
+.bookimg4{
+    background-image:url('images/briefans.jpg');
+}
+
+.bookimg5{
+    background-image:url('images/elon.jpg');
+}
+
+.bookimg6{
+    background-image:url('images/stevejobs.jpg');
+}
+
+

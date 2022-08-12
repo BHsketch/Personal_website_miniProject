@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thinkboy | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="imageinfo.css">
+    <link rel="stylesheet"  href="headerstyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <script defer src="try.js"></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Thinkboy</h1>
+        </div>
+        <nav>
+            <div class="initials">
+                <p style="font-family: 'Black Ops One', cursive; font-size:20px;">BH</p>
+            </div>
+            <div class="right">
+                <div class="links">
+                    <ul class="linksul">
+                        <a href="index.html"><li class="navlink"><div class="animate1"></div><p>Home</p></li></a>
+                        <a href="index.html" class="try">
+                            <li class="navlink">
+                                <div class="animate1"></div>
+                                <div class="dropdown">
+                                    <p>Notes</p>
+                                    <div class="dropdownmenu">
+                                        <!-- <ul> -->
+                                            <!-- <a href="electronics.html"><li>Electronics</li></a>
+                                            <a><li>Drawing</li></a>
+                                            <a><li>Programming</li></a>
+                                            <a><li>Networking</li></a> -->
+                                            <p onclick="alert('The dropdown links are not active yet! sorry for the inconvenience; you may use the `get started` button to navigate to these pages.')">Electronics</p>
+                                            <br>
+                                            <p onclick="alert('The dropdown links are not active yet! sorry for the inconvenience; you may use the `get started` button to navigate to these pages.')">Drawing</p>
+                                            <br>
+                                            <p onclick="alert('The dropdown links are not active yet! sorry for the inconvenience; you may use the `get started` button to navigate to these pages.')">Programming</p>
+                                            <br>
+                                            <p onclick="alert('The dropdown links are not active yet! sorry for the inconvenience; you may use the `get started` button to navigate to these pages.')">Networking</p>
+                                        <!-- </ul> -->
+                                    </div>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="books.html"><li class="navlink"><div class="animate"></div><p>Book Notes</p></li></a>
+                        <a href="books.html"><li class="navlink"><div class="animate"></div><p>Study resources</p></li></a>
+                    </ul>
+                </div>
+                <div class="search">
+                    <form>
+                        <input type="text" placeholder="search..">
+                        <button type="button" class="searchbtn"></button>
+                    </form>
+                </div>
+            </div>
+            <!-- <form>
+                
+            </form> -->
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <!-- <h2>Hello there,</h2>
+        <p class="introduction">I'm Bhavya. A computer science student at NIT Surat.</p>-->
+        <!-- <h2>Purpose:</h2> -->
+        <div class="introduction">
+            <p>On this website you will find a compilation of my notes written throughout my journey as a computer science student.</p>
+            <p>The notes will be updated as I learn more, and I'll do my best to provide exlpainations that make the topics intuitive</p>
+        </div>
+        <div class="tutorials">
+            <h2>Tutorials:</h2>
+        </div>
+        <div class="images">
+            <div class="info1">
+                <div class="img1">
+                    <!-- <img src="images/electronics.jpg" alt="image of an integrated circuit" width="500px"> -->
+                    <div class="electronics">
+                        <h1>Digital electronics</h1>
+                    </div>
+                </div>
+                <div class="enlarge">
+                    <p class="topic"><b>Topics:</b></p>
+                    <ul>
+                        <li>transistors</li>
+                        <li>Flip-flops</li>
+                        <li>Register and counters</li>
+                        <li>Memory</li>
+                        <li>The system bus</li>
+                        <li>Data communication</li>
+                    </ul>
+                    <a href="electronics.html"><p class="getstarted">Get started</p></a>
+                </div>
+            </div>
+            <div class="info2">
+                <div class="img2">
+                    <!-- <img src="images/sketching.jpg" alt="sketching image" width="500px"> -->
+                    <div class="sketching">
+                        <h1>Drawing and character design</h1>
+                    </div>
+                </div>
+                <div class="enlarge">
+                    <p class="topic"><b>Topics:</b></p>
+                    <ul>
+                        <li>Thinking with shapes</li>
+                        <li>Human Anatomy</li>
+                        <li>Drawing styles</li>
+                        <li>Creating a character concept</li>
+                        <li>Basic Poses</li>
+                        <li>Dynamic poses</li>
+                    </ul>
+                    <a><p class="getstarted">Get started</p></a>
+                </div>
+            </div>
+            <div  class="info3">
+                <div class="img3">
+                    <!-- <img src="images/coding1.png" alt="image of some code" width="500px"> -->
+                    <div class="programming">
+                        <h1>Programming</h1>
+                    </div>
+                </div>
+                <div class="enlarge">
+                    <p class="topic"><b>Topics:</b></p>
+                    <ul>
+                        <li>Introduction to programming with c++</li>
+                        <li>Functions and files</li>
+                        <li>Debugging</li>
+                        <li>Fundamental data types</li>
+                        <li>Operators</li>
+                        <li>Scope, duration, linkage and much more...</li>
+                    </ul>
+                    <a><p class="getstarted">Get started</p></a>
+                </div>
+            </div>
+            <div class="info4">
+                <div class="img4">
+                    <!-- <img src="images/internet_of_things.jpg" alt="internet of things" width="500px"> -->
+                    <div class="networking">
+                        <h1>Networking</h1>
+                    </div>
+                </div>
+                <div class="enlarge">
+                    <p class="topic"><b>Topics:</b></p>
+                    <ul>
+                        <li>Sending digital information through a wire</li>
+                        <li>RF encoding</li>
+                        <li>Clock synchronization and manachester coding</li>
+                        <li>Analysing the actual ethernet encoding</li>
+                        <li>Frames and frame formats</li>
+                        <li>The internet protocol and much more...</li>
+                    </ul>
+                    <a><p class="getstarted">Get started</p></a>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <hr>
+        <p class="footname">BHAVYA HIRANI</p>
+        <div class="contact">
+            <ul>
+                <a href="https://www.instagram.com/accounts/login/"><li class="instagram"></li></a>
+                <a href="https://www.facebook.com/"><li class="facebook"></li></a>
+                <a href="https://in.linkedin.com/"><li class="linkedin"></li></a>
+            </ul>
+        </div>
+        <p><a href="mailto:bhavya25hirani@gmail.com" class="email emaillink">Click here to send me an email</a></p>
+    </footer>
+</body>
+</html>

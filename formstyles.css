@@ -1,0 +1,20 @@
+.formstarts{
+    display:flex;
+    justify-content:flex-start;
+}
+
+.forminside input{
+    height:25px;
+    width:150px;
+    margin:5px;
+}
+
+.forminside button{
+    margin:5px;
+}
+
+/* .check{
+    display:inline;
+    width:10px;
+    height:10px;
+} */

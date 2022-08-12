@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+*{
+    font-family:'Raleway', sans-serif;
+}
+
+
+nav{
+    height:30px;
+}
+
+nav .initials{
+    color:white;
+    display:inline;
+    width:10%;
+    /* font-family: 'Archivo', sans-serif; */
+    font-family: 'Black Ops One', cursive;
+    /* font-weight:1000; */
+}
+
+body{
+    /* padding:10px; */
+    margin:0px;
+    padding:0px;
+    /* background-color:#F2F2E8; */
+    /* background-color:#B5B5B5; */
+}
+
+header{
+    background-image:url('images/electronics.jpg');
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-color:#000000;
+    padding:20px 15px 10px 15px;
+    /* padding:0px; */
+    height:75px;
+}
+
+
+nav .right{
+    display:inline;
+    float:right;
+}
+
+nav form{
+    display:inline;
+}
+
+nav .search{
+    display:inline;
+    /* float:right; */
+}
+
+.search input{
+    margin-right:0px;
+}
+
+nav .links{
+    display:inline;
+    /* float:right; */
+}
+
+nav a.emaillink{
+    color:black;
+    text-decoration:none;
+    padding:5px 15px;
+    /* width:150px; */
+}
+
+
+nav a, nav li{
+    display:inline;
+    /* width:100px; */
+    /* height:20px; */
+    position:relative;
+    z-index:1;
+}
+
+
+nav .animate{
+    display:inline-block;
+    position:absolute;
+    /* background-color:rgba(250, 181, 181, 0); */
+    background-color:rgba(143, 143, 143, 0);
+    /* background-color:rgba(255, 255, 255, 0); */
+    width:0px;
+    height:30px;
+    left:50%;
+    bottom:0px;
+    transition:all 1s;
+    z-index:0;
+}
+nav .animate1{
+    display:inline-block;
+    position:absolute;
+    /* background-color:rgba(250, 181, 181, 0); */
+    background-color:rgba(143, 143, 143, 0);
+    /* background-color:rgba(255, 255, 255, 0); */
+    width:0px;
+    height:30px;
+    left:50%;
+    bottom:0px;
+    transition:all 1s;
+    z-index:0;
+}
+
+nav a:hover .animate{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:150px;
+    /* background-color:rgba(250, 181, 181, 1); */
+    background-color:rgba(143, 143, 143, 0.8);
+    /* background-color:rgb(255, 255, 255, 1); */
+    z-index:0;
+}
+nav a:hover .animate1{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:75px;
+    /* background-color:rgba(250, 181, 181, 1); */
+    background-color:rgba(143, 143, 143, 0.80);
+    /* background-color:rgb(255, 255, 255, 1); */
+    z-index:0;
+}
+
+nav li p{
+    position:relative;
+    z-index:1;
+}
+
+hr{
+    margin-top:0px;
+}
+
+.search button{
+    background-color:#ffffff;
+    border:0px;
+    border-radius:3px;
+    background-image:url("images/search_btn3.png");
+    background-repeat:no-repeat;
+    background-size:23px;
+    width:25px;
+    height:25px;
+    overflow:clip;
+    vertical-align:bottom;
+    margin-left:0px;
+}
+
+nav input{
+    height:20px;
+}
+
+nav p, nav ul{
+    display:inline;
+    margin:0px;
+}
+
+nav ul{
+    margin-right:0px;
+}
+
+nav ul li{
+    list-style-type:none;
+    display:inline;
+    /* width:124px; */
+    padding:5px 15px;
+    margin:5px;
+    color:white
+}
+
+
+
+nav .dropdown{
+    position:relative;
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+}
+
+
+nav .dropdown .dropdownmenu{
+    display:inline-block;
+    position:absolute;
+    top:35px;
+    right:-52px;
+    border-radius:5px;
+    height:0px;
+    width:150px;
+    background-color:rgba(59, 59, 59, 0.807);
+    overflow:hidden;
+    text-align:center;
+    z-index:0;
+    transition:all 1s;
+}
+
+
+.dropdownmenu p{
+    display:inline-block;
+    padding-top:20px;
+}
+
+
+
+nav a.try:hover .dropdown .dropdownmenu{
+    height:180px;
+    display:inline-block;
+    position:absolute;
+    top:35px;
+    /* right:5px; */
+    border-radius:5px;
+    box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    z-index:2;
+}
+
+
+.title{
+    text-align:center;
+    color:white;
+    height:40px;
+    margin-bottom:10px;
+}
+
+.title h1{
+    height:30px;
+    margin:0px;
+}
+
+/* a.try{
+    color:white;
+} */

@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+/* font-family: 'Hubballi', cursive; */
+
+*{
+    font-family:'Raleway', sans-serif;
+}
+
+
+nav{
+    height:30px;
+}
+
+nav .initials{
+    display:inline;
+    width:10%;
+    /* font-family: 'Archivo', sans-serif; */
+    font-family: 'Black Ops One', cursive;
+    /* font-weight:1000; */
+}
+
+body{
+    /* padding:10px; */
+    margin:0px;
+    padding:0px;
+    /* background-color:#F2F2E8; */
+    /* background-color:#B5B5B5; */
+}
+
+/* header{
+    background-color:#A8ECD4;
+    padding:20px 15px 10px 15px;
+
+}
+
+main{
+    padding:10px 15px;
+}*/
+
+main h2{
+    text-align:center;
+}
+
+.introduction{
+    text-align:center;
+}
+
+nav .right{
+    display:inline;
+    float:right;
+}
+
+nav form{
+    display:inline;
+}
+
+nav .search{
+    display:inline;
+}
+
+.search input{
+    margin-right:0px;
+}
+
+nav .links{
+    display:inline;
+}
+
+nav a{
+    text-decoration:none;
+    padding:5px 15px;
+}
+
+nav a, nav li{
+    display:inline;
+    position:relative;
+    z-index:1;
+}
+
+
+
+nav .animate{
+    display:inline-block;
+    position:absolute;
+    background-color:rgba(143, 143, 143, 0);
+    width:0px;
+    height:30px;
+    left:50%;
+    bottom:0px;
+    transition:all 1s;
+    z-index:0;
+}
+nav .animate1{
+    display:inline-block;
+    position:absolute;
+    background-color:rgba(143, 143, 143, 0);
+    width:0px;
+    height:30px;
+    left:50%;
+    bottom:0px;
+    transition:all 1s;
+    z-index:0;
+}
+
+nav a:hover .animate{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:150px;
+    background-color:rgb(143, 143, 143);
+    z-index:0;
+}
+nav a:hover .animate1{
+    position:absolute;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:75px;
+    background-color:rgb(143, 143, 143);
+
+    z-index:0;
+}
+
+nav li p{
+    position:relative;
+    z-index:1;
+}
+
+hr{
+    margin-top:0px;
+}
+
+.search button{
+    background-color:#A8ECD4;
+    border:0px;
+    border-radius:2px;
+    background-image:url("images/search_btn3.png");
+    background-repeat:no-repeat;
+    background-size:23px;
+    width:21px;
+    height:21px;
+    overflow:clip;
+    vertical-align:bottom;
+    margin-left:0px;
+}
+
+nav input{
+    height:20px;
+}
+
+/* nav p, nav ul{
+    display:inline;
+    margin:0px;
+} */
+
+nav ul{
+    margin-right:0px;
+}
+
+nav ul li{
+    list-style-type:none;
+    display:inline;
+    padding:5px 15px;
+    margin:5px;
+}
+
+
+nav .dropdown{
+    position:relative;
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+}
+
+
+nav .dropdown .dropdownmenu{
+    display:inline-block;
+    position:absolute;
+    top:35px;
+    right:-52px;
+    border-radius:5px;
+    height:0px;
+    width:150px;
+    background-color:rgba(110, 110, 110, 1);
+    overflow:hidden;
+    text-align:center;
+    z-index:0;
+    transition:all 1s;
+}
+
+.dropdownmenu p{
+    display:inline-block;
+    padding-top:20px;
+}
+
+nav a:hover .dropdown .dropdownmenu{
+    height:180px;
+    display:inline-block;
+    position:absolute;
+    top:35px;
+    border-radius:5px;
+    box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    z-index:2;
+} 
+
+
+.tutorials{
+    text-align:center;
+    color:#A8ECD4;
+}
+
+footer{
+    background-color:#A8ECD4;
+    padding-bottom:75px;
+}
+
+footer p.footname{
+    font-family: 'Hubballi', cursive;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+footer ul, footer p{
+    text-align:center;
+}
+
+footer ul{
+    padding:0px;
+}
+
+footer ul li{
+    list-style-type:none;
+    display:inline-block;
+    width:25px;
+    height:25px;
+    background-color:#A8ECD4;
+    background-size:25px;
+    overflow:hidden;
+    margin:5px;
+}
+
+footer li.linkedin{
+    background-image:url('images/LinkedIn_png.png');
+}
+
+footer li.facebook{
+    background-image:url('images/facebook_png.png');
+}
+
+footer li.instagram{
+    background-image:url('images/instagram_png.png');
+}
+
+footer .email{
+    text-decoration:none;
+    color:black;
+}

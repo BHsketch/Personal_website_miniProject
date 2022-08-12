@@ -1,0 +1,108 @@
+.images{
+    padding-left:150px;
+}
+
+.img1, .img2, .img3, .img4{
+    display:inline-block;
+    width:490px;
+    height:215px;
+    background-repeat:no-repeat;
+    padding:0px;
+    background-size: 500px;
+    padding-top:110px;
+    /* margin:50px 50px; */
+    border-radius:15px;
+    overflow:clip;
+    box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.info1, .info2, .info3, .info4{
+    position:relative;
+    display:inline-block;
+    margin:50px 50px;
+    border-radius:15px;
+}
+
+.enlarge{
+    display:inline-block;
+    position:absolute;
+    overflow:hidden;
+    top:330px;
+    left:0px;
+    padding-left:10px;
+    background-color:rgba(168, 236, 212, 0);
+    height:0px;
+    width:480px;
+    border-radius:15px;
+    z-index:0;
+    transition:all 1s;
+    box-shadow:0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+}
+
+.enlarge .getstarted{
+    display:inline-block;
+    padding:5px;
+    background-color:#545454;
+    border-radius:3px;
+    color:white;
+}
+
+.enlarge .topic{
+    display:inline-block;
+    width:100px;
+    padding:0px;
+    /* margin:0px; */
+}
+
+.enlarge ul{
+    display:inline-block;
+    width:400px;
+    padding:0px;
+    margin:0px;
+}
+
+.info1:hover .enlarge, .info2:hover .enlarge, .info3:hover .enlarge, .info4:hover .enlarge{
+    display:inline-block;
+    position:absolute;
+    background-color:rgba(168, 236, 212, 0.7);
+    height:225px;
+    width:480px;
+    border-radius:15px;
+    z-index:2;
+}
+
+/* .img1:hover{
+    display:inline-block;
+    width:500px;
+    height:225px;
+    background-repeat:no-repeat;
+    padding:0px;
+    background-size: 500px;
+    padding-top:110px;
+    margin:40px 45px;
+    border-radius:15px;
+    position:relative;
+    right:5px; 
+    bottom:5px;
+} */
+
+.img1{
+    background-image:url("images/electronics.jpg");
+}
+
+.img2{
+    background-image:url("images/sketching.jpg");
+}
+
+.img3{
+    background-image:url("images/coding2.png");
+}
+
+.img4{
+    background-image:url("images/networking.webp");
+}
+
+.img1 .electronics, .img2 .sketching, .img3 .programming, .img4 .networking{
+    color:white;
+    text-align:center;
+}
